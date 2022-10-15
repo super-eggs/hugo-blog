@@ -1,7 +1,7 @@
 baseURL: https://www.supereggs.cn/
 languageCode: zh-cn
 title: SuperEggs
-theme: "PaperMod"
+theme: "hugo-PaperMod"
 
 enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
