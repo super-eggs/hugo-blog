@@ -39,6 +39,8 @@
     {{- end }}
 
     <footer class="post-footer">
+        {{- partial "copyright.html" . }}
+
         {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
         <ul class="post-tags">
             {{- range ($.GetTerms $tags) }}
