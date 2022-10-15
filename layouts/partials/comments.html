@@ -1,0 +1,12 @@
+
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+
+<h3 style="margin-top: 3rem;text-align: center">文章评论</h3>
+<div id="waline" ></div>
+<script>
+    Waline.init({
+        el: '#waline',
+        serverURL: 'https://blog-waline-omega-beryl.vercel.app/',
+    });
+</script>
