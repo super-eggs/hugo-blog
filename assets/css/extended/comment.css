@@ -1,0 +1,25 @@
+/*评论*/
+.dark .wl-comment .wl-panel {
+    color: var(--primary);
+    background: var(--theme);
+}
+
+.dark .wl-comment .wl-panel .wl-header-item label, .dark .wl-comment .wl-panel textarea {
+    color: var(--primary) !important;
+}
+
+.dark .wl-content p {
+    color: var(--primary) !important;
+}
+
+.dark .wl-btn {
+    color: var(--primary) !important;
+}
+
+.dark .wl-comment .wl-panel .wl-header-item input {
+    color: var(--primary) !important;
+}
+
+.dark .wl-editor:focus, .dark .wl-input:focus {
+    background: var(--tertiary);
+}
