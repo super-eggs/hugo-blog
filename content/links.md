@@ -17,6 +17,7 @@ showbreadcrumbs: false
 {{< friend name="SuperEggs" url="https://www.supereggs.cn" logo="https://www.supereggs.cn/img/Q.png" word="一个记录技术、阅读、生活的博客" >}}
 {{< friend name="WebStack" url="https://webstack.supereggs.cn/" logo="https://webstack.supereggs.cn/assets/images/logo-collapse-light.png" word="网址导航,程序员常用网站" >}}
 {{< friend name="Doge先锋" url="https://www.dogeow.com/" logo="https://www.supereggs.cn/img/Q.png" word="一个纯粹的博客" >}}
+{{< friend name="小菜的博客站" url="http://xiaocai.streamcc.top" logo="http://xiaocai.streamcc.top/images/xiaocai.jpg" word="一个纯粹的博客" >}}
 
 
 </div>
