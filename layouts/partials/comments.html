@@ -1,12 +1,17 @@
-
 <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
 
-<h3 style="margin-top: 3rem;text-align: center">文章评论</h3>
-<div id="waline" ></div>
+<div id="waline"></div>
 <script>
     Waline.init({
         el: '#waline',
+        reaction: true,
+        comment: true,
+        dark: 'body[class="dark"]',
         serverURL: 'https://blog-waline-omega-beryl.vercel.app/',
+        emoji: [
+            '//unpkg.com/@waline/emojis@1.1.0/qq',
+            '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        ],
     });
 </script>
