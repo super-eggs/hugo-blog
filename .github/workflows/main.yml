@@ -26,8 +26,8 @@ jobs:
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
-          username: 'root'   #ssh user name
+          username: 'ubuntu'   #ssh user name
           server: '${{ secrets.SERVER_IP }}' #引用之前创建好的secret
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的secret
           local_path: './public'  # 对应我们项目build的文件夹路径
-          remote_path: '/var/www/hugo-blog'
+          remote_path: '/www/wwwroot/www.supereggs.cn'
